@@ -1,0 +1,65 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-image: url('1131.jpg');
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .main-content {
+    display: flex;
+  }
+  
+  .navigation-menu {
+    flex: 1;
+  }
+  
+  .booking-management {
+    flex: 1;
+  }
+  
+  /* Booking list styles */
+  .booking-list {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .booking-item {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .booking-item:last-child {
+    border-bottom: none;
+  }
+  
+  /* Cancel booking button styles */
+  .cancel-booking {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .cancel-booking:hover {
+    background-color: #c82333;
+  }
+  

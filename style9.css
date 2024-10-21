@@ -1,0 +1,76 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8; /* Light gray background */
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-image: url('1131.jpg');
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .main-content {
+    display: flex;
+    gap: 30px; /* Adds space between ticket details and cancellation form */
+  }
+  
+  .ticket-details,
+  .cancellation-form {
+    flex: 1;
+  }
+  
+  /* Ticket details styles */
+  .ticket-details h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333; /* Dark text color */
+  }
+  
+  .ticket-details p {
+    margin-bottom: 15px;
+    color: #666; /* Gray text color */
+  }
+  
+  .ticket-details textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical; /* Allow vertical resizing */
+  }
+  
+  /* Form styles */
+  form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow to form */
+  }
+  
+  form button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  form button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  

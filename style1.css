@@ -1,0 +1,90 @@
+/* General styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8; /* Light gray background */
+}
+
+.container {
+  max-width: 900px;
+  margin: 50px auto;
+  background-color: #fff;
+  background-image: url('1131.jpg'); 
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.main-content {
+  display: flex;
+}
+
+.navigation-menu {
+  flex: 1;
+  padding-right: 30px;
+}
+
+.quick-actions {
+  flex: 1;
+}
+
+/* Navigation menu styles */
+.navigation-menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.navigation-menu ul li {
+  margin-bottom: 20px;
+}
+
+.navigation-menu ul li a {
+  display: block;
+  padding: 15px 20px;
+  text-decoration: none;
+  color: #333;
+  background-color: #f0f0f0; /* Light gray background */
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.navigation-menu ul li a:hover {
+  background-color: #0056b3;/* Slightly darker gray on hover */
+  color: #007bff; /* Blue color on hover */
+}
+
+/* Quick actions styles */
+.quick-actions button {
+  display: block;
+  margin-bottom: 20px;
+  padding: 15px 30px;
+  width: 100%;
+ transition: background-color 0.3s ease; /* Blue button */
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.quick-actions button:hover {
+  background-color: #0056b3;
+}
+
+/* Additional styles */
+.footer {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.footer img {
+  width: 100px;
+  height: auto;
+  margin-bottom: 20px;
+}

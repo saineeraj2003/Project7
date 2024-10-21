@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Airline Staff Dashboard - Flight Management</title>
+  <link rel="stylesheet" href="style7.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Airline Staff Dashboard - Flight Management</h1>
+    </header>
+    <div class="main-content">
+      <div class="navigation-menu">
+      </div>
+      <div class="flight-management">
+        <h2>Flight Schedule Management</h2>
+      
+        <div class="add-flight">
+          <h3>Add New Flight</h3>
+          <form id="addFlightForm">
+            
+            <div class="form-group">
+              <label for="flightNumber">Flight Number:</label>
+              <input type="text" id="flightNumber" name="flightNumber" required>
+            </div>
+     
+            <button type="submit">Add Flight</button>
+          </form>
+        </div>
+    
+        <div class="flight-schedule">
+          <h3>Flight Schedule</h3>
+          <table>
+            <thead>
+              <tr>
+                <th>Flight Number</th>
+                <th>Departure Time</th>
+                <th>Arrival Time</th>
+                <th>Duration</th>
+                <th>Available Seats</th>
+                <th>Price</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody id="flightScheduleTable">
+     
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

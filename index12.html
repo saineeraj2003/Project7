@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flight Ticket Cancellation - Refund Amount</title>
+  <link rel="stylesheet" href="style10.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Flight Ticket Cancellation - Refund Amount</h1>
+    </header>
+    <div class="main-content">
+      <div class="cancellation-form">
+        <h2>Cancellation Request</h2>
+        <form id="cancellationForm">
+          <div class="form-group">
+            <label for="ticketPrice">Ticket Price:</label>
+            <input type="text" id="ticketPrice" name="ticketPrice" placeholder="Enter ticket price">
+          </div>
+          <div class="form-group">
+            <label for="cancellationFee">Cancellation Fee:</label>
+            <input type="text" id="cancellationFee" name="cancellationFee" placeholder="Enter cancellation fee">
+          </div>
+          <button type="submit">Calculate Refund</button>
+        </form>
+      </div>
+      <div class="refund-amount">
+        <h2>Refund Amount</h2>
+        <p id="refundAmount">-</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
